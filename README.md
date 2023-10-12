@@ -15,7 +15,5 @@ Datasets can be downloaded here:
 
 ### Training
 ```bash
-python main.py --codebook-method O --ds imagenet100 --margin 0.2 --epochs 150 --assignment True \
---device 0 --arch_top mobilenetv3 --arch_bottom resnet50 --nbit 32 --bs 64 --gamma 10 \
---lr_top 0.0002
+python main.py --codebook-method O --ds imagenet100 --margin 0.2 --epochs 150 --assignment True --device 0 --arch_top mobilenetv3 --arch_bottom resnet50 --nbit 32 --bs 64 --gamma 10 
 ```

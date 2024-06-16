@@ -18,4 +18,4 @@ Datasets can be downloaded here:
 python main.py --codebook-method O --ds imagenet100 --margin 0.2 --epochs 150 --assignment True --device 0 --arch_top mobilenetv3 --arch_bottom resnet50 --nbit 32 --bs 64 --gamma 10 
 ```
 ## Acknowledgement
-This code inherits some codes from <a href="[https://github.com/swuxyj/DeepHash-pytorch](https://github.com/kamwoh/orthohash)">OrthoHash</a>
+This code inherits some codes from <a href="https://github.com/kamwoh/orthohash">OrthoHash</a>
